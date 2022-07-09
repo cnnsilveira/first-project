@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.header {
+    background-image: url("images/sbs.jpg");
+    background-position: center;
+    height: 500px;
+    margin-top: 0;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+#h1-a {
+    background: #023047;
+    padding: 7px 18px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    color: white;
+}
+
+#h1-b {
+    background: #00537a;
+    padding: 7px 18px;
+    border-radius: 5px;
+    width: 350px;
+    color: white;
+}
+
+.bg {
+    background: linear-gradient(#FFF0C9, #c2fcff);
+}
+
+
+.m1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+
+.m-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+
+.m-img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 7px black;
+}
+
+.m-p {
+    width: 190px;
+    text-align: center;
+    background: #023047;
+    border-radius: 15px;
+    color: white;
+    padding: 8px 15px;
+}
+
+.footer {
+    padding-bottom: 70px;
+}
+
+.card {
+    width: 500px;
+    height: 220px;
+    display: block;
+    margin: 40px auto 0;
+    background: #333533;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 20px solid #242423;
+    border-bottom: 20px solid #FFB703;
+}
+
+.c1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.eu {
+    width: 220px;
+    height: 220px;
+    border-radius: 3px
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.l1 {
+    width: 30px;
+    padding: 0 7px
+}
+
+.card-text {
+    padding-left: 30px;
+    margin: 2px;
+    text-shadow: 0 0 8px black;
+}
+
+.card1{
+    color: white;
+    margin: 0
+}
+
+.card2{
+    color: white;
+    margin: 5px 0 0;
+}
+
+.card3{
+    color: white;
+    margin: 0 0 2px;
+}
+
+.card4{
+    color: white;
+    margin: 0;
+    padding-bottom: 25px;
+}
